@@ -1,0 +1,21 @@
+body  {background-color: lightgray;
+}
+#text {
+  background-color: rgb(153, 109, 194);
+  width: 180px;
+  height: 20px;
+  color: rgb(73, 78, 83);
+}
+#textinput{
+  text-align: right;
+
+}
+.container {
+  width: 120px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}

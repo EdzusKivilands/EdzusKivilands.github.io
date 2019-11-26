@@ -1,0 +1,63 @@
+body  {
+  background-color: url("bacground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+  .header {
+  height: 15%;
+  background-color: skyblue;
+  color: red;
+  padding: 1px;
+}
+.Menu{
+  align: center;
+}
+.leftside {
+  width: 15%;
+  height: 75%;
+  background-color: pink;
+  float: left;
+}
+.middle{
+  width: 70%;
+  height: 75%;
+  backgroud-color: rgb(175, 111, 111);
+  float: left;
+}
+.rightside{
+  width: 15%;
+  height: 75%;
+  background-color: pink;
+  float: left;
+}
+.footer{
+  align: center;
+  background-color: skyblue;
+  height: 10%;
+}
+.izvelne{
+  background: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+.izvelne li{
+  list-style-type: none;
+  display:inline;
+}
+.izvelne li a{
+  border-radius: 10px;
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-left: 20px;
+}
+.izvelne li a:hover{
+  padding:20px;
+}
+.Menu{
+  width: 800px;
+  margin: auto;
+}

@@ -41,6 +41,7 @@
 .izvelne{
   background: blue;
   border-radius: 5px;
+  padding: 20px
   float: left;
   width: 70%;
 }

@@ -1,21 +1,59 @@
 body  {background-color: lightgray;
 }
-#text {
-  background-color: rgb(153, 109, 194);
-  width: 180px;
-  height: 20px;
-  color: rgb(73, 78, 83);
-}
-#textinput{
-  text-align: right;
 
+  .header {
+  height: 15%;
+  background-color: skyblue;
+  color: red;
+  padding: 1px;
 }
-.container {
-  width: 120px;
-  clear: both;
+.Menu{
+  align: center;
 }
-
-.container input {
-  width: 100%;
-  clear: both;
+.leftside {
+  width: 15%;
+  height: 75%;
+  background-color: pink;
+  float: left;
+}
+.middle{
+  width: 70%;
+  height: 75%;
+  backgroud-color: rgb(175, 111, 111);
+  float: left;
+}
+.rightside{
+  width: 15%;
+  height: 75%;
+  background-color: pink;
+  float: left;
+}
+.footer{
+  align: center;
+  background-color: skyblue;
+  height: 10%;
+}
+.izvelne{
+  background: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+.izvelne li{
+  list-style-type: none;
+  display:inline;
+}
+.izvelne li a{
+  border-radius: 10px;
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-left: 20px;
+}
+.izvelne li a:hover{
+  padding:20px;
+}
+.Menu{
+  width: 800px;
+  margin: auto;
 }

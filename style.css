@@ -38,6 +38,7 @@
   background: blue;
   padding: 20px;
   border-radius: 5px;
+  float: left;
 }
 .izvelne li{
   list-style-type: none;

@@ -1,6 +1,10 @@
 .body  {
   background-color: skyblue;
 }
+.container{
+  width: 800px;
+  height: 600px;
+}
 
   .header {
   height: 15%;

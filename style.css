@@ -1,67 +1,89 @@
 .body  {
-  background-color: skyblue;
+    background-color: gray;
+
 }
 .container{
-  width: 800px;
-  height: 600px;
-  background-color: green;
+    width: 1600px;
+    height: 1400px;
+    background-color: rgb(132, 122, 136);
+    margin: 0px auto;
 }
 
-  .header {
-  height: 15%;
-  background-color: skyblue;
-  color: red;
-  padding: 1px;
-}
-.Menu{
-  align: center;
+.header {
+    height: 50px;
+    background-color: gray;
+    padding: 1px;
+    text-emphasis-position: right;
 }
 .leftside {
-  width: 15%;
-  height: 75%;
-  background-color: pink;
-  float: left;
+    width: 15%;
+    height: 1342px;
+    background-color: #88738f;
+    float: left;
 }
 .middle{
-  width: 70%;
-  height: 75%;
-  backgroud-color: rgb(175, 111, 111);
-  float: left;
+    width: 70%;
+    height: 75%;
+    backgroud-color: white;
+    float: left;
+    position: auto;
 }
 .rightside{
-  width: 15%;
-  height: 75%;
-  background-color: pink;
-  float: left;
+    width: 15%;
+    height: 1342px;
+    background-color: #88738f;
+    float: left;
 }
 .footer{
-  align: center;
-  background-color: skyblue;
-  height: 10%;
+    background-color: gray;
+    height: 75px;
+    text-align: center;
 }
 .izvelne{
-  background: blue;
-  border-radius: 5px;
-  padding: 20px
-  float: left;
-  width: 70%;
+    background: dimgray;
+    padding: 20px;
+    width: 1560px;
 }
 .izvelne li{
-  list-style-type: none;
-  display:inline;
+    list-style-type: none;
+    display:inline;
 }
 .izvelne li a{
-  border-radius: 10px;
-  text-decoration: none;
-  background: black;
-  color: white;
-  padding: 10px;
-  border-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: gray;
+    color: white;
+    padding: 10px;
+
 }
 .izvelne li a:hover{
-  padding:20px;
+    padding:20px;
 }
-.Menu{
-  width: 700px;
-  margin: auto;
+.season1{
+    width: 200px;
+    height: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
+.izvelne2{
+    background: dimgray;
+    padding: 20px;
+    width: 75px;
+    height: 120px;
+    border-radius: 5px;
+}
+.izvelne2 li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.izvelne2 li a{
+    border-radius: 10px;
+    text-decoration: none;
+    background: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+.izvelne2 li a:hover{
+    padding:20px

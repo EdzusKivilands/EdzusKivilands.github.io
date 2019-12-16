@@ -58,3 +58,22 @@
 .row{
     background-color: whitesmoke;
 }
+.leftside {
+    width: 15%;
+    height: 1342px;
+    background-color: #88738f;
+    float: left;
+}
+.middle{
+    width: 70%;
+    height: 75%;
+    backgroud-color: white;
+    float: left;
+    position: auto;
+}
+.rightside{
+    width: 15%;
+    height: 1342px;
+    background-color: #88738f;
+    float: left;
+}

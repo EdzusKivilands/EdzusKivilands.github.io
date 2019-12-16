@@ -4,7 +4,7 @@
 }
 .container{
     height: 1400px;
-    background-color: gray;
+    color: gray;
     margin: 0px auto;
 }
 .izvelne{
@@ -57,23 +57,4 @@
 }
 .row{
     background-color: gray;
-}
-.leftside {
-    width: 15%;
-    height: 1342px;
-    background-color: #88738f;
-    float: left;
-}
-.middle{
-    width: 70%;
-    height: 75%;
-    backgroud-color: white;
-    float: left;
-    position: auto;
-}
-.rightside{
-    width: 15%;
-    height: 1342px;
-    background-color: #88738f;
-    float: left;
 }

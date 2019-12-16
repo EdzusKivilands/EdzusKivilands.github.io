@@ -1,49 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Teehee</title>
+    <meta charset="UTF-8">
+    <title>Peaky blinders</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
-<body class="body">
-<script src="script.js"></script>
-<header class="header">
-    <h1 align="center">Seriāls "Peaky blinders"</h1>
-</header>
-<div class="container" align="center">
-    <div class="Menu">
-        <ul class="izvelne">
-            <li><a href="index.html">Sākums</a></li>
-            <li><a href="galerija.html">Galerija</a></li>
-            <li><a href="kontakti.html">Kontakti</a></li>
-        </ul>
-    </div>
-    <div class="leftside">
-        <h2>Kreisa puse</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,</p>
-    </div>
-    <div class="middle">
-        <h2>Galvenie varoņi</h2>
-        <img src="bildes/thomas.jpg" alt="" width="" height="">
-        <div class textbox><p>Galveno varoni tēlo īru aktieris Killians Murfijs.</p></div>
-        <br>
-        <img src="bildes/arthur.jpg" alt="" width="300" height="170">
-        <br>
-        <img src="bildes/polly.jpg" alt="" width="200" height="300">
-        <br>
-        <img src="bildes/jhon.jpg" alt="" width="" height="">
-        <br>
-        <img src="bildes/michael.jpg" alt="" width="200" height="300">
-    </div>
-    <div class="rightside">
-        <h2>Labā puse</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,</p>
+<body class = "body">
+<div class ="row">
+    <div class = "col-md-12" align ="center"><h2>Seriāls "Peaky Blinders"</h2></div>
+</div>
+<div class ="row" class="Menu">
+    <div class = "col-md-12" >
+        <div class="Menu">
+            <ul class="izvelne">
+                <li><a href="index.html">Sākums</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="kontakti.html">Kontakti</a></li>
+            </ul>
+        </div>
     </div>
 </div>
-<footer class="footer">
-    <i>Izveidoja Edžus D2-1</i>
-</footer>
+<div class="container">
+    <h2>Galvenie varoņi</h2>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Vārds</th>
+            <th>Uzvārds</th>
+            <th>Tēls</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Cillian</td>
+            <td>Murphy</td>
+            <td>Thomas Shelby</td>
+        </tr>
+        <tr>
+            <td>Helen</td>
+            <td>McCrory</td>
+            <td>Polly Gray</td>
+        </tr>
+        <tr>
+            <td>Paul</td>
+            <td>Anderson</td>
+            <td>Arthur Shelby</td>
+        </tr>
+        <tr>
+            <td>Sophie</td>
+            <td>Rundle</td>
+            <td>Ada Shelby</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Cole</td>
+            <td>John Shelby</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6">
+            <img src="bildes/thomas.jpg" class="img-fluid" alt="Responsive image">
+            <p>Galvenais varonis, tēls iziet cauri daudz traumatizējošiem pārdzīvojumiem, neskatoties uz visu to viņš spēj paveikt lietas ģeniālā veidā</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <img src="bildes/polly.jpg" class="img-fluid" alt="Responsive image">
+            <p>Tā saucamā ģimenes galva, piekrīt vai noraida kaut kādus lēmumus, zaudēja savus bērnus kad viņiem bija 5 un 3 gadi, un tikai viens ir izdzīvojis kuru viņa meiģina atrast</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <img src="bildes/arthur.jpg" class="img-fluid" alt="Responsive image">
+            <p></p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <img src="bildes/jhon.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+</div>
+
+<div class ="row" class="Menu">
+    <div class = "col-md-12" >Izveidoja: Edžus Kivilands</div>
+</div>
 </body>
 </html>
